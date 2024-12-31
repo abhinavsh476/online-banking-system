@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-footer {
+    background-color: #f1f1f1;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+.is-invalid .invalid-feedback {
+    display: block;
+}

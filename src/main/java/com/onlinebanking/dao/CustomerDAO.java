@@ -11,7 +11,7 @@ public class CustomerDAO {
     private Connection connection;
 
     // Constructor for DB connection
-    public CustomerDAO() {
+    public CustomerDAO(Connection mockConnection) {
         this.connection = DBConnection.getConnection();
     }
 
